@@ -1,19 +1,125 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Personel Portfolio</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <header>
+
+<body class="bg-[#212121;]">
+    <header class="lg:h-[500px] h-[300px]  bg-cover " style="background-image: url(image/bggg.jpg);">
+
+        <nav class="lg:mx-20">
+
+            <div class="navbar justify-between items-center">
+                <a href="" class=" lg:text-4xl text-white"><span class="font-bold">N</span> aHid</a>
+
+                <div class=" text-xs lg:text-lg lg:flex">
+                    <ul class="gap-5 menu-horizontal text-white">
+                        <li class="hover:text-sky-200"><a href="">ABOUT</a></li>
+                        <li class="hover:text-sky-200"><a href="">WHAT I DO</a></li>
+                        <li class="hover:text-sky-200"><a href="">WORK</a></li>
+                        <li class="hover:text-sky-200"><a href="">CONTACT</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+        <div class="text-center lg:mt-20 text-white mt-4">
+            <h1 class="lg:text-6xl text-2xl mb-5 ">I’m Nahid Parvej</h1>
+            <h4 class="text-sm text-slate-500 hover:text-blue-600">Front-End Development - WEB Designer</h4>
+
+        </div>
+
+        <div class="flex  justify-center items-center gap-2 mt-5">
+            <a href=""><img src="icon/te-1.png" alt=""></a>
+            <a href=""><img src="icon/linkedin 2.png" alt=""></a>
+            <a href=""><img src="icon/twitter 2 1.png" alt=""></a>
+        </div>
 
     </header>
+
     <main>
+
+        <!-- about me section -->
+
+        <section class="my-16">
+                  
+            <div class="hero ">
+                <!-- profile  -->
+                <div class="hero-content flex-col gap-10 lg:flex-row">
+                    <img src="image/fb8334daeaa1743f482b8a7586f92651.png" alt=""
+                    class="lg:absolute lg:mr-[820px] lg:rounded-br-lg lg:rounded-tl-lg lg:-mt-12 w-56 h-56 mx-[100px] hidden lg:block " />
+                <div class="border-2 border-[#FFFFFF] rounded-br-lg w-52 h-52 hidden lg:block"></div>
+                          
+                <img src="image/fb8334daeaa1743f482b8a7586f92651.png" alt=""
+                class="absolute w-48 h-48 -mt-[230px] rounded-full lg:hidden block " />
+                <div class="border border-indigo-60 rounded-full lg:hidden block mt-14 bg-slate-300 w-52 h-52"></div>
+
+                               <!-- about me  -->
+                  <div class="mt-5">
+                    <h1 class="lg:text-4xl font-bold text-[#4C70EF]">ABOUT ME</h1>
+                    <h4 class="text-[#FFF] text-2xl mt-3">I’m Nahid Parvej</h4>
+                    <p class="my-5 text-[#B0ADAD]">Far far away, behind the word mountains, far from the countries
+                        Vokalia and Consonantia,<br>
+                        there
+                        live the blind texts. Separated they live in Bookmarksgrove right at the coast of the <br>
+                        Semantics,
+                        a large language ocean.
+
+                    </p>
+              
+                  </div>
+                </div>
+              </div>
+        </section>
+
+<!-- what i do section  -->
+
+        <section >
+
+               <div class="text-center mb-5">
+                <h1 class="lg:text-4xl font-bold text-[#4C70EF]">WHAT I DO</h1>
+                <h4 class="text-[#FFF] text-2xl mt-3">SPECIALIZING IN</h4>
+               </div>
+
+            <div class="hero  ">
+                <div class="hero-content flex-col lg:flex-row">
+                    <div class="bg-base-200 shadow-xl p-5 w-96 h-40">
+                       <div class="flex items-center gap-3">
+                        <img src="icon/web-development 1.png" alt="">
+                        <div>
+                            <h1 class="font-bold">Front-end Development</h1>
+                        </div>
+                       </div>
+
+                        <p class="py-6">Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
+                        
+                      </div>
+                      <div class="bg-base-200 shadow-xl p-5 w-96 h-40">
+                        <div class="flex items-center gap-3">
+                         <img src="icon/ui-design 1.png" alt="">
+                         <div>
+                             <h1 class="font-bold">WEB Designer</h1>
+                         </div>
+                        </div>
+ 
+                         <p class="py-6">Lom ipsum dolo, sit amet consectetu adpisicing elit, rem voluptas sed blanditiis</p>
+                         
+                       </div>
+                </div>
+              </div>
+        </section>
 
     </main>
     <footer>
-        
+
     </footer>
 </body>
+
 </html>
